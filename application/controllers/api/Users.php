@@ -9,7 +9,13 @@ class Users extends CI_Controller {
     }
 
     public function registration(){
+        $error = array();
+        if(($this->input->post('user_type'))&&($this->input->post('user_type')!="")){
+             $user_type = $this->input->post('user_type');
+             if($user_type == USER_TYPE_COMPANY){
 
+             }
+        }
     }
 }
 ?>
