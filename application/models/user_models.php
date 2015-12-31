@@ -12,5 +12,4 @@ class User_models extends CI_Model
     {
 
     }
-
 }

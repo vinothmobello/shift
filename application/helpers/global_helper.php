@@ -1,8 +1,9 @@
 <?php
-/*
+/**
  * Validating the input values
+ * @param $array
  */
-function checkValidInput()
+function checkValidInput($array)
 {
 
 }
@@ -22,4 +23,3 @@ function checkIfExists($array, $table_name)
         return false;
     }
 }
-
